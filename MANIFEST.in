@@ -1,4 +1,4 @@
 include README.md
-recursive-include octoprint_TerminalCommands/templates *
-recursive-include octoprint_TerminalCommands/translations *
-recursive-include octoprint_TerminalCommands/static *
+recursive-include octoprint_TwitchTerminalCommands/templates *
+recursive-include octoprint_TwitchTerminalCommands/translations *
+recursive-include octoprint_TwitchTerminalCommands/static *

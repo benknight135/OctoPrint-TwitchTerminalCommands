@@ -1,17 +1,17 @@
 ---
 layout: plugin
 
-id: TerminalCommands
-title: OctoPrint-TerminalCommands
-description: Lets you add custom G-code command buttons to OctoPrint's Terminal view tab
-author: ieatacid
+id: TwitchTerminalCommands
+title: OctoPrint-TwitchTerminalCommands
+description: Sends gcode based on twitch commands
+author: BenKnight135
 license: AGPLv3
 
 date: 2017-12-31
 
-homepage: https://github.com/ieatacid/OctoPrint-TerminalCommands
-source: https://github.com/ieatacid/OctoPrint-TerminalCommands
-archive: https://github.com/ieatacid/OctoPrint-TerminalCommands/archive/master.zip
+homepage: https://github.com/benknight135/OctoPrint-TwitchTerminalCommands
+source: https://github.com/benknight135/OctoPrint-TwitchTerminalCommands
+archive: https://github.com/benknight135/OctoPrint-TwitchTerminalCommands/archive/master.zip
 
 tags:
 - terminal
@@ -21,12 +21,12 @@ tags:
 - ui
 
 screenshots:
-- url: /assets/img/plugins/TerminalCommands/terminal_tab.png
+- url: /assets/img/plugins/TwitchTerminalCommands/terminal_tab.png
   alt: Terminal tab with command buttons
-- url: /assets/img/plugins/TerminalCommands/terminal_commands_settings.png
+- url: /assets/img/plugins/TwitchTerminalCommands/terminal_commands_settings.png
   alt: Terminal Commands settings
 
-featuredimage: /assets/img/plugins/TerminalCommands/terminal_tab.png
+featuredimage: /assets/img/plugins/TwitchTerminalCommands/terminal_tab.png
 
 compatibility:
 

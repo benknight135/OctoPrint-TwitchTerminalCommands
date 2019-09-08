@@ -1,4 +1,4 @@
-# OctoPrint-TerminalCommands
+# OctoPrint-TwitchTerminalCommands
 
 **If you're looking for a more customizable plugin where the commands reside in the Control tab please see Salandora's excellent [Custom Control Editor](https://plugins.octoprint.org/plugins/customControl/)**
 

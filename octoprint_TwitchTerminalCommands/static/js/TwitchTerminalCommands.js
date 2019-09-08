@@ -1,8 +1,10 @@
 /*
- * View model for OctoPrint-TerminalCommands
+ * View model for OctoPrint-TwitchTerminalCommands
  *
  * Author: ieatacid
  * License: AGPLv3
+ * 
+ * Adapted by: Ben Knight (bknight135@gmail.com)
  */
 $(function() {
     function TerminalCommandsViewModel(parameters) {
@@ -177,6 +179,6 @@ $(function() {
     OCTOPRINT_VIEWMODELS.push([
         TerminalCommandsViewModel,
         [ "terminalViewModel", "settingsViewModel", "loginStateViewModel"],
-        [ "#settings_plugin_TerminalCommands" ]
+        [ "#settings_plugin_TwitchTerminalCommands" ]
     ]);
 });

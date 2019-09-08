@@ -4,30 +4,30 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "TerminalCommands"
+plugin_identifier = "TwitchTerminalCommands"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_TerminalCommands"
+plugin_package = "octoprint_TwitchTerminalCommands"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "OctoPrint-TerminalCommands"
+plugin_name = "OctoPrint-TwitchTerminalCommands"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
 plugin_version = "0.1.6"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """Lets you add custom G-code command buttons to OctoPrint's Terminal view tab"""
+plugin_description = """Sends gcode based on twitch commands"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "ieatacid"
+plugin_author = "ben knight"
 
 # The plugin's author's mail address.
-plugin_author_email = "ieatacid@gmail.com"
+plugin_author_email = "bknight135@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/ieatacid/OctoPrint-TerminalCommands"
+plugin_url = "https://github.com/benknight135/OctoPrint-TwitchTerminalCommands"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
