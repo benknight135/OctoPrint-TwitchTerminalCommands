@@ -18,7 +18,7 @@ plugin_version = "0.1.7"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """Sends gcode based on twitch commands"""
+plugin_description = """Sends gcode based on twitch commands."""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
 plugin_author = "ben knight"
