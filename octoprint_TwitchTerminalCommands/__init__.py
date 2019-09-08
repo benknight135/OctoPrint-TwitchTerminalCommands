@@ -30,7 +30,7 @@ class TwitchTerminalCommandsPlugin(octoprint.plugin.SettingsPlugin,
 				displayVersion=self._plugin_version,
 
 				type="github_release",
-				user="ieatacid",
+				user="benknight135",
 				repo="OctoPrint-TwitchTerminalCommands",
 				current=self._plugin_version,
 

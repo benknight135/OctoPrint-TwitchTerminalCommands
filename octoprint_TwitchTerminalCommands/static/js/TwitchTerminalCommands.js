@@ -36,6 +36,25 @@ $(function() {
             }
         }
 
+        function readTextFile(file)
+        {
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.onreadystatechange = function ()
+            {
+                if(rawFile.readyState === 4)
+                {
+                    if(rawFile.status === 200 || rawFile.status == 0)
+                    {
+                        var allText = rawFile.responseText;
+                        alert(allText);
+                        return allText;
+                    }
+                }
+            }
+            rawFile.send(null);
+        }
+
         // From: https://github.com/foosel/OctoPrint/blob/master/src/octoprint/static/js/app/viewmodels/terminal.js#L320
         // To bypass the terminal input textarea and not add to command history
         var commandRe = /^(([gmt][0-9]+)(\.[0-9+])?)(\s.*)?/i;
@@ -117,10 +136,19 @@ $(function() {
 
             $("button.termctrl").click(function() {
                 var button = $(this);
-                var commandStr = getCmdFromName(button.text());
+                var buttonStr = button.text()
+                var commandStr = ""
+
+                if(buttonStr == "twitch") {
+                    console.log("Twitch button pressed. Running last known twitch command.");
+                    commandStr = readTextFile("file:///home/pi/scripts/custom/tmp/twitchCommand.txt")
+                } else {
+                    commandStr = getCmdFromName(buttonStr);
+                }
+
                 var cmds = commandStr.split(";");
                 var nCmds = cmds.length;
-                console.log("Click: [" + button.text() + "]  " + commandStr);
+                console.log("Click: [" + buttonStr + "]  " + commandStr);
 
                 if(nCmds > 1) {
                     console.log("Multiple commands...");
