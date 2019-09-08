@@ -164,13 +164,13 @@ $(function() {
         }
 
         self.onBeforeBinding = function () {
-            self.terminalCommands(self.settingsViewModel.settings.plugins.TerminalCommands.controls.slice(0));
+            self.terminalCommands(self.settingsViewModel.settings.plugins.TwitchTerminalCommands.controls.slice(0));
             // printCommandArray();
             addButtonsToTermTab();
         };
 
         self.onSettingsBeforeSave = function () {
-            self.settingsViewModel.settings.plugins.TerminalCommands.controls(self.terminalCommands.slice(0));
+            self.settingsViewModel.settings.plugins.TwitchTerminalCommands.controls(self.terminalCommands.slice(0));
             // printCommandArray();
             addButtonsToTermTab();
         }

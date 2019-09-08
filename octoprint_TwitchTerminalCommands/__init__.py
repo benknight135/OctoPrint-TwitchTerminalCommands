@@ -25,7 +25,7 @@ class TwitchTerminalCommandsPlugin(octoprint.plugin.SettingsPlugin,
 
 	def get_update_information(self):
 		return dict(
-			TerminalCommands=dict(
+			TwitchTerminalCommands=dict(
 				displayName="TwitchTerminalCommands Plugin",
 				displayVersion=self._plugin_version,
 
